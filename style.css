@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('./Norse-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif, Times;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text styling */
+p {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 32px;
+}
+
+.p1 {
+    margin-top: 64px;
+}
+.p3 {
+    margin-top: 32px;
+}
+
+.p4 {
+    margin-top: 76px;
+    margin-bottom: 16px;
+    font-size: 28px;
+}
+
+/* Form styling */
+label {
+    display: block;
+    font-size: 11px;    
+    font-weight: bold;
+    font-family: Montserrat;
+    letter-spacing: .2rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 5px;
+    outline: none;
+    width: 200px;
+}
+
+input[type=text]:focus, input[type=phone]:focus, input[type=email]:focus {
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=password], input:invalid {
+    border: 1px solid red;
+}
+
+.left-container {
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+    min-width: 345px;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.logo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+}
+
+h1 {
+    font-family: NorseBold;
+    color: white;
+    font-size: 64px;
+}
+
+.logo img {
+    width: 5rem;
+    padding: 10px; 
+}
+
+.form-container {
+    display: flex;
+    gap: 64px;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.account-btn {
+    background-color: #596D48;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 16px;
+}
+
+.login-btn {
+    color: #596D48;
+    text-decoration: none;
+}
